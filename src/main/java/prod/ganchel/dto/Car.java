@@ -1,6 +1,8 @@
 package prod.ganchel.dto;
 
 import lombok.*;
+import prod.ganchel.enums.Color;
+
 import java.math.BigDecimal;
 
 @Data
@@ -8,4 +10,5 @@ import java.math.BigDecimal;
 public class Car {
     String model;
     BigDecimal price;
+    Color color;
 }
