@@ -14,4 +14,5 @@ public class Car {
     Color color;
     EngineType engineType;
     BigDecimal weight;
+    Engine engine;
 }
