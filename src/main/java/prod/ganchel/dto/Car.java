@@ -16,5 +16,6 @@ public class Car {
     BigDecimal weight;
     Engine engine;
     Options options;
+    BigDecimal bodySize;
 
 }
